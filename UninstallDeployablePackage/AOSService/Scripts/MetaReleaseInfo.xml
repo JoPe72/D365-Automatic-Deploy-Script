@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceModelInstallationInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>AOSService</Name>
+  <Description />
+  <InstallationDateTime>2018-03-25T14:05:31.6094531-07:00</InstallationDateTime>
+  <InstallationInfoFilePath>d:\dbs\sh\rfp\0325_112257\cmd\21\Drop\retail\Services\AOSService\Scripts\InstallationInfo.xml</InstallationInfoFilePath>
+  <Version>7.0.4841.35234</Version>
+  <Publisher>Microsoft Corporation</Publisher>
+  <GeneratedFromAXMetadata>false</GeneratedFromAXMetadata>
+  <Configuration />
+  <CustomName />
+  <CustomVersion />
+  <CustomDescription />
+  <CustomPublisher />
+  <ServiceModelGroup>Platform</ServiceModelGroup>
+  <ReleaseVersion>Update15</ReleaseVersion>
+  <ProductRegisteredName>Microsoft Dynamics 365 for Finance and Operations</ProductRegisteredName>
+</ServiceModelInstallationInfo>

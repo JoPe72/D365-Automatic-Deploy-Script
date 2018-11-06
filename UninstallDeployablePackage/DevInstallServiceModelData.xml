@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceModelData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Guid>a38be920-ed52-4583-8475-7539f721cb5e</Guid>
+  <Version>1.0.0.0</Version>
+  <ServiceModelList>
+    <ServiceModel>	
+      <Name>AOSService</Name>
+      <SelectedForUpdate>true</SelectedForUpdate>
+      <ContainDatabase>true</ContainDatabase>
+      <DependentServiceModelList />
+      <StopScript>
+        <FileName>AutoStopAOS.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>Stop AOS service and Batch service</Description>
+      </StopScript>
+      <UpdateScript>
+        <FileName>AutoUpdateAOSService.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>update AOS service</Description>
+        <InvokeWithPowershellProcess>false</InvokeWithPowershellProcess>
+      </UpdateScript>
+      <GlobalUpdateConfigScript>
+        <FileName>AutoImportLicense.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>Import AX license file</Description>
+      </GlobalUpdateConfigScript>
+      <StartScript>
+        <FileName>AutoStartAOS.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>Start AOS service and Batch service</Description>
+      </StartScript>
+    </ServiceModel>
+    <ServiceModel>
+      <Name>DIXFService</Name>
+      <SelectedForUpdate>false</SelectedForUpdate>      
+      <DependentServiceModelList>
+        <string>AOSService</string>
+      </DependentServiceModelList>
+      <StopScript>
+        <FileName>AutoStopDIXFService.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>Stop DIXF SSIS service</Description>
+      </StopScript>
+      <StartScript>
+        <FileName>AutoStartDIXFService.ps1</FileName>
+        <Automated>true</Automated>
+        <Description>Start DIXF service</Description>
+      </StartScript>
+    </ServiceModel>
+  </ServiceModelList>
+</ServiceModelData>

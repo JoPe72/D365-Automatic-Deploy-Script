@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TopologyData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>AX topology</Name>
+  <MachineList>
+    <Machine>
+      <Name>localhost</Name>
+      <ServiceModelList>
+        <string>AOSService</string>
+        <!-- DefaultTopologyData are only for dev vhd, which we only support AOS update-->
+        <!-- Create a new topology data for your Cloud AX topology-->
+      </ServiceModelList>
+    </Machine>
+  </MachineList>
+  <BackupScript>
+    <FileName />
+    <Automated>false</Automated>
+    <Description>Please backup your environment now, set this step to complete once you finished backup</Description>
+  </BackupScript>
+</TopologyData>

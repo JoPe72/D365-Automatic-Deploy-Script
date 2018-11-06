@@ -1,0 +1,18 @@
+Clean up code
+    Output progress and Filename for package
+    Parameter for install/uninstall
+    Parameter for zipfile
+    Support multiple zip files
+Support for sync database
+Detect failed runbook
+Resume failed runbook
+Support export runbook
+
+
+
+
+
+Maybee
+Maintenance mode On/Off
+Start Stop Services
+Backup restore database/bacpac

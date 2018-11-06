@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReleasedPackages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Package>
+		<Guid>4f75f086-fad2-4c7c-b86d-3100762bdaec</Guid>
+		<PackageType>BinaryHotfixPackage</PackageType>
+		<Description>Zero Down Time Binary Hotfix</Description>
+	</Package>
+  <Package>
+		<Guid>76f46b4f-1849-4927-9da2-6c349430f349</Guid>
+		<PackageType>BinaryHotfixPackage</PackageType>
+		<Description>Binary Hotfix</Description>
+	</Package>
+	<Package>
+		<Guid>79819862-f801-4722-8d5c-1f863ff407e7</Guid>
+		<PackageType>ConfigModeSingleUserPackage</PackageType>
+		<Description>AOS Config Mode</Description>
+	</Package>
+	<Package>
+		<Guid>803f3da4-1dd1-450d-bbec-8cb6e2ed45cd</Guid>
+		<PackageType>DataUpgradePackage</PackageType>
+		<Description>Data Upgrade Update 1</Description>
+	</Package>
+        <Package>
+		<Guid>b1451745-a2f9-45a9-aeef-0fd0a24e0b68</Guid>
+		<PackageType>DataUpgradePackage</PackageType>
+		<Description>AX2012 Data Upgrade</Description>
+	</Package>
+	<Package>
+		<Guid>ce3e0f74-1011-480e-a771-0d43e36d2871</Guid>
+		<PackageType>ISVLicensePackage</PackageType>
+		<Description>ISV Import License</Description>
+	</Package>
+	<Package>
+		<Guid>b846a274-8ef6-41ff-ad28-5a8ae3b4c461</Guid>
+		<PackageType>RotateConfigDataPackage</PackageType>
+		<Description>Rotate Congiguration Data</Description>
+	</Package>
+	<Package>
+		<Guid>09253a9b-3e12-47b3-b4f1-38535fdb540c</Guid>
+		<PackageType>UpdateDLLtoAOSWebRoot</PackageType>
+		<Description>AOS to Web Root Package</Description>
+	</Package>
+	<Package>
+		<Guid>a38be920-ed52-4583-8475-7539f721cb5e</Guid>
+		<PackageType>Unknown</PackageType>
+		<Description>No Mapping for Dev Install Hotfix</Description>
+	</Package>
+	<Package>
+		<Guid>7856185E-9489-4B02-B1D4-EDDC22B63D7B</Guid>
+		<PackageType>PlatformUpdatePackage</PackageType>
+		<Description>Platform in-place update1</Description>
+	</Package>
+	<Package>
+		<Guid>55B95A00-6634-4A5A-B7E5-2FB5CBA09C22</Guid>
+		<PackageType>PlatformUpdatePackage</PackageType>
+		<Description>Platform in-place update2</Description>
+	</Package>
+	<Package>
+		<Guid>03AAECD2-79F5-451E-9FF5-6B7DD585C44F</Guid>
+		<PackageType>PlatformUpdatePackage</PackageType>
+		<Description>Platform in-place update3 and beyond</Description>
+	</Package>
+  <Package>
+    <Guid>0EA593F9-0AD6-412C-9777-B5647F345F7C</Guid>
+    <PackageType>RetailEnvironmentRetargetPackage</PackageType>
+    <Description>Retail Environment Retarget</Description>
+  </Package>
+</ReleasedPackages>
+<!-- PackageTypes can only be:
+        Unknown,
+        PlatformOnlyPackage,
+        ApplicationOnlyPackage,
+        PlatAppBinaryHotfixPackage,
+        BinaryHotfixPackage,
+        ApplicationPackage,
+        RetailCombinedPackage,
+        RetailCloudPOSPackage,
+        RetailPaymentCollector,
+        RetailSelfServicePackage,
+        RetailServerPackage,
+        PlatformUpdateMergedPackage,
+        MergedPackage,
+        PlatformUpdatePackage,
+        CertificateRotationPackage,
+        DataUpgradePackage,
+        ConfigModeSingleUserPackage,
+        ISVLicensePackage,
+        RotateConfigDataPackage,
+        RotateAuthDataPackage,
+        RetailEnvironmentRetargetPackage,
+        RetailHQPackage,
+        RetailStoreFront,
+        UpdateDLLtoAOSWebRoot
+-->

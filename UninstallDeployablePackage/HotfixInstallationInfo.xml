@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HotfixInstallationInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>864df981-100d-45c4-8ba0-07621294b0d8</Name>
+  <Description>Deployable package created from visual studio</Description>
+  <InstallationDateTime>0001-01-01T00:00:00</InstallationDateTime>
+  <InstallationInfoFilePath>C:\Users\Administrator\AppData\Local\Temp\tmp1112.tmp\HotfixInstallationInfo.xml</InstallationInfoFilePath>
+  <Version />
+  <Publisher>Non-Microsoft</Publisher>
+  <GeneratedFromAXMetadata>false</GeneratedFromAXMetadata>
+  <Type>ApplicationPackage</Type>
+  <IncludedDeployablePackages />
+  <ServiceModelList />
+  <OtherComponentList />
+  <MetadataModuleRelease>Update15</MetadataModuleRelease>
+  <MetadataModuleList>
+    <string>a_entities.7.0.4841.35234</string>
+    <string>a_entitytrigger.7.0.4841.35234</string>
+  </MetadataModuleList>
+  <MetadataModelList />
+  <PlatformReleaseDisplayName>Update15</PlatformReleaseDisplayName>
+  <PlatformVersion>7.0.4841.35234</PlatformVersion>
+  <IsCompatibleWithSealedRelease>true</IsCompatibleWithSealedRelease>
+  <AllComponentList>
+    <ArrayOfString>
+      <string>AX Module</string>
+      <string>a_entities.7.0.4841.35234</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>AX Module</string>
+      <string>a_entitytrigger.7.0.4841.35234</string>
+    </ArrayOfString>
+  </AllComponentList>
+</HotfixInstallationInfo>

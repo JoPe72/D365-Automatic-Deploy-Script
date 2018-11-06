@@ -1,0 +1,7 @@
+ALMService,Platform
+AOSServiceDSC,Platform
+DevToolsService,Platform
+DIXFService,Platform
+ReportingService,Platform
+TestAssets,Ignore
+UserSID,Platform
