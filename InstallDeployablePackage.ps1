@@ -1,4 +1,12 @@
-﻿# Manage Deployable Packages
+﻿# This is a small script put together from other rscripts to manage Deployable Packages
+#
+#
+# Credit:
+#         Martin Drab http://dev.goshoom.net/en/2016/11/installing-deployable-packages-with-powershell/
+#
+#
+
+
 
 param([switch]$Elevated,
       [string]$Filename,
